@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hi!", "hey", "hello and hey", "how r u", "how are you", "good day", "good morning", "good evening", "good afternoon"],
+      "responses": ["Hello", "Hii", "What can I do for You?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "see ya", "adios", "cya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "Come back soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx", "appreciate it"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {
+      "tag": "abilities",
+      "patterns": ["what can you do", "what are your abilities", "what can i ask you", "what do you do"],
+      "responses": ["I can chat with you, answer your questions, and provide information.", "I can help you with a variety of tasks, just ask!", "I can respond to your queries and engage in conversation."]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you", "what do they call you"],
+      "responses": ["I am a chatbot.", "You can call me Chatbot.", "I don't have a name."]
+    },
+    {
+      "tag": "education",
+      "patterns": ["tell me about education", "what should I study", "best courses", "how to learn programming", "study tips"],
+      "responses": ["Education is key to success! What specific area are you interested in?", "There are many great resources for learning. What subject are you curious about?", "I can provide general information, but for personalized advice, consider speaking with an academic advisor."]
+    },
+    {
+      "tag": "stocks",
+      "patterns": ["stock market", "investing in stocks", "how to buy shares", "stock tips", "best stocks to buy"],
+      "responses": ["The stock market can be volatile. It's important to do your research before investing.", "I can provide general information about stocks, but I am not a financial advisor.", "Investing always carries risks. Consider consulting a professional for financial advice."]
+    },
+    {
+      "tag": "food",
+      "patterns": ["what to eat", "recipe ideas", "healthy food", "best restaurants", "cooking suggestions"],
+      "responses": ["Are you looking for a specific type of cuisine or a healthy option?", "I can suggest some popular dishes or provide recipe ideas if you tell me what ingredients you have.", "Food is delicious! What kind of food are you in the mood for?"]
+    },
+    {
+      "tag": "lifestyle",
+      "patterns": ["healthy lifestyle", "how to be happy", "daily routine", "work-life balance", "stress management"],
+      "responses": ["A balanced lifestyle often includes good diet, exercise, and mindfulness.", "Finding what makes you happy is a personal journey. What aspects of your lifestyle are you looking to improve?", "I can offer general tips on well-being and productivity."]
+    },
+    {
+      "tag": "fashion",
+      "patterns": ["fashion trends", "style tips", "what to wear", "fashion advice", "outfit ideas"],
+      "responses": ["Fashion is all about expressing yourself! Are you looking for casual, formal, or something else?", "I can give you some general fashion tips. What kind of occasion are you dressing for?", "Staying updated with trends can be fun. What's your personal style?"]
+    },
+    {
+      "tag": "cooking",
+      "patterns": ["how to cook", "easy recipes", "cooking techniques", "baking tips", "what to bake"],
+      "responses": ["Cooking can be very rewarding! What kind of dish are you interested in making?", "I can help you with basic cooking techniques or suggest simple recipes.", "Do you have any specific ingredients you'd like to use?"]
+    },
+    {
+      "tag": "health",
+      "patterns": ["health tips", "stay healthy", "exercise routine", "diet plan", "mental health"],
+      "responses": ["Maintaining good health involves a balanced diet, regular exercise, and sufficient rest.", "I can provide general health information, but for medical advice, please consult a healthcare professional.", "What specific aspect of health are you interested in?"]
+    }
+  ]
+}

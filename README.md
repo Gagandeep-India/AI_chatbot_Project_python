@@ -22,7 +22,7 @@ Welcome to the AI Chatbot Project! This repository hosts a powerful and customiz
 ## 🛠️ Technologies Used
 
 *   **Python 3.x**
-*   **NLTK (Natural Language Toolkit)**: For text preprocessing (tokenization, lemmatization).
+*   **NLTK (Ntural Language Toolkit)**: For text preprocessing (tokenization, lemmatization).
 *   **TensorFlow / Keras**: For building and training the neural network model.
 *   **NumPy**: For numerical operations, especially with array manipulation.
 *   **Pickle**: For serializing and deserializing Python objects (saving/loading model components).
